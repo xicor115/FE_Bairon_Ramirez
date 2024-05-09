@@ -1,8 +1,11 @@
 body {
-    background-color: rgb(237, 237, 237);
-    color: rgb(0, 0, 0);
-  }
+    background-image: url('blurtecno.jpg'), linear-gradient(rgba(243, 236, 236, 0.925), rgba(237, 237, 237, 0.5)); /* Ruta de tu imagen de fondo y degradado */
+    background-size: cover; /* Ajusta la imagen al tamaño de la ventana del navegador */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-color: rgb(228, 217, 217); /* Color de fondo de respaldo */
+    color: rgb(230, 13, 13); /* Color de texto */
+}
 
-  .card {
-    margin-top: 20px;
-  }
+.card {
+    margin-top: 20px; /* Margen superior para las tarjetas */
+}
